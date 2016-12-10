@@ -14,7 +14,7 @@ npm install iota.lib.js
 
 This tool need some additional packages, which are possibly already installed after you executed the command above. Otherwise they can be installed like this:
 
-npm install httpxmlrequest<br>
+npm install xmlhttprequest<br>
 npm install performance-now<br>
 
 Now you are ready to install and configure this tool:
