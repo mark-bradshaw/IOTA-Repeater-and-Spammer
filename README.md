@@ -38,6 +38,6 @@ You find those parameters declarations in the top section of repeater.js.
 <H3>EXECUTION</H3>
 nodejs repeater.js<br>
 or<br>
-./repeater.sh<br>
+./repeater.sh        (make sure execution permission flag is set!)<br>
 
 The 'repeater.sh' is a wrapper around the basic command call. It restarts nodejs automatically when an exception occurred and the repeater stopped working. This is likely to happen at some point, because the underlying iota.lib.js is work in progress, as well as the IRI ledger.
