@@ -22,6 +22,7 @@ Now you are ready to install and configure this tool:
 Get these files from this repository<br>
 - repeater.js<br>
 - repeater.sh<br> 
+
 and copy them into the directory that you created.
 <H3>CONFIGURATION</H3>
 You can run the application 'out of the box', or you can take a choice:
@@ -30,10 +31,12 @@ You can run the application 'out of the box', or you can take a choice:
 3) Set the spammers time interval (SPAM_FREQUENCY=90, seconds, deliberate delays between spams).
 4) Set your personal spam message and tag (recommended).
 5) Set the search depth for 'transactions to approve', default SPAM_DEPTH=5.
+
 You find those parameters in the top section of repeater.js.
 
 <H3>EXECUTION</H3>
 nodejs repeater.js<br>
 or<br>
 ./repeater.sh<br>
+
 The 'repeater.sh' is a wrapper around the basic command call. It restarts nodejs automatically when an exception occurred and the repeater stopped working. This is likely to happen at some point, because the underlying iota.lib.js is work in progress, as well as the IRI ledger.
