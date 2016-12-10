@@ -3,7 +3,7 @@ An application to contribute to IOTA network efficiency
 
 This application won't be needed any more when IOTA network is heavily used by true IOT devices.<br>As long as that the case, the IOT cloud topology and behaviour can be emulated to some degree by virtual tethering. It is realized by rebroadcasting transactions by existing nodes in a measured way.
 <H3>INSTALLATION</H3>
-You need nodejs and npm installed on your system.
+You need <b>nodejs</b> and <b>npm</b> installed on your system.
 
 This tool uses the official IOTA Javascript library. You can download it here:
 https://github.com/iotaledger/iota.lib.js
