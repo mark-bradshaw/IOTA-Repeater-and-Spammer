@@ -33,7 +33,7 @@ You can run the application 'out of the box', or you can take a choice:
 4) Set your personal spam message and tag (recommended).<br>
 5) Set the search depth for 'transactions to approve', default SPAM_DEPTH=5.<br>
 
-You find those parameters in the top section of repeater.js.
+You find those parameters declarations in the top section of repeater.js.
 
 <H3>EXECUTION</H3>
 nodejs repeater.js<br>
