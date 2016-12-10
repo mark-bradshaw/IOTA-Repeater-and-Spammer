@@ -26,11 +26,12 @@ Get these files from this repository<br>
 and copy them into the directory that you created.
 <H3>CONFIGURATION</H3>
 You can run the application 'out of the box', or you can take a choice:
-1) Run repeater only without spammer (REPEATER_ON=true|false).
-2) Run spammer only without repeater (SPAM_ON=true|false).
-3) Set the spammers time interval (SPAM_FREQUENCY=90, seconds, deliberate delays between spams).
-4) Set your personal spam message and tag (recommended).
-5) Set the search depth for 'transactions to approve', default SPAM_DEPTH=5.
+
+1) Run repeater only without spammer (REPEATER_ON=true|false).<br>
+2) Run spammer only without repeater (SPAM_ON=true|false).<br>
+3) Set the spammers time interval (SPAM_FREQUENCY=90, seconds, deliberate delays between spams).<br>
+4) Set your personal spam message and tag (recommended).<br>
+5) Set the search depth for 'transactions to approve', default SPAM_DEPTH=5.<br>
 
 You find those parameters in the top section of repeater.js.
 
