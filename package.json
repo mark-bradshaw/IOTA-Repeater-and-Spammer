@@ -1,0 +1,29 @@
+{
+  "name": "iota-repeater-and-spammer",
+  "version": "1.0.0",
+  "description": "An application to contribute to IOTA network efficiency.",
+  "main": "repeater.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfredch/IOTA-Repeater-and-Spammer.git"
+  },
+  "keywords": [
+    "iota",
+    "repeater",
+    "spammer"
+  ],
+  "author": "alfredch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alfredch/IOTA-Repeater-and-Spammer/issues"
+  },
+  "homepage": "https://github.com/alfredch/IOTA-Repeater-and-Spammer#readme",
+  "dependencies": {
+    "iota.lib.js": "0.0.13",
+    "performance-now": "^0.2.0",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
