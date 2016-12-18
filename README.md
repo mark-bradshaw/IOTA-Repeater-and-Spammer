@@ -6,11 +6,13 @@ As long as that is not the case, the IOT cloud topology and behaviour can be emu
 
 
 ## INSTALLATION
-To use this app you'll first need a working IOTA IRI node.  You need **node** and **npm** installed on your system.  Once you've cloned this repo, open a terminal to the directory of the cloned repo and type:
+To use this app you'll first need a working (**IOTA IRI node**)[https://github.com/iotaledger/iri].  You'll also need (**node**)[https://nodejs.org] and **npm** (included with node) installed on your system.  
+
+To install, clone this repo, open a terminal to the directory of the cloned repo and type:
 
 `npm install`
 
-Now you are ready to configure this tool.
+Now you are ready to configure and use this tool.
 
 ## CONFIGURATION
 You can run the application 'out of the box' with a local IRI node, or you can take a choice:
